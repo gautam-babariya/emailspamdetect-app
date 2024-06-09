@@ -1,0 +1,94 @@
+*{
+    background-color: #998f8f;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px; /* Padding for spacing */
+    box-shadow: 0 25px 16px rgba(255, 255, 255, 0.412); 
+    position: relative; 
+}
+.container-fluid{
+    background-color: white;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
+}
+h1{
+    background-color: white;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 3px 0 0 3px; /* Rounded corners on the left side */
+    outline: none; /* Remove default outline */
+  }
+  
+  .search-button {
+    padding: 6px 10px;
+    border: 1px solid #007bff; /* Border color */
+    background-color: #007bff; /* Background color */
+    color: rgb(225, 27, 27); /* Text color */
+    border-radius: 0 3px 3px 0; /* Rounded corners on the right side */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .search-button:hover {
+    background-color: #bacde1; /* Darker background on hover */
+  }
+
+
+.moto-div{
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+input{
+    margin-right: 2vw;
+    border: 3px solid rgb(90, 90, 90) !important;
+    width: 50vw;
+    height: 10vh;
+    color: black  !important;
+    margin-bottom: 1rem;
+}
+.label_class{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black  !important;
+    margin-bottom: 0.5rem;
+    font-size: larger;
+}
+button{
+    background-color: #766c6c !important;
+    color: black !important;
+    width: 5rem;
+    border: 3px solid rgb(90, 90, 90) !important;
+}
+
+input ::placeholder{
+    color:black !important;
+}
+  
+.uper-niche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newchild{
+    font-size: 6rem;
+    text-decoration: underline;
+}
