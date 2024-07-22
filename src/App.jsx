@@ -28,8 +28,8 @@ function App() {
     const productData = {
       title: data.title,
     };
-    // axios.post('http://localhost:3000/predict', productData.title)
-    axios.post('https://emailspamdetect-api.vercel.app/predict', productData.title)
+    axios.post('http://localhost:3000/predict', productData.title)
+    // axios.post('https://emailspamdetect-api.vercel.app/predict', productData.title)
       .then((Response) => {
         addChildDiv(Response.data)
       })
