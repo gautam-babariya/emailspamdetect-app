@@ -28,8 +28,7 @@ function App() {
     const productData = {
       title: data.title,
     };
-    // axios.post('https://emailspamdetect-api-3.onrender.com/predict', productData.title)
-    axios.post('https://emailspamdetect-api.vercel.app/predict', productData.title)
+    axios.post('https://emailspamdetect-api-3.onrender.com/predict', productData.title)
       .then((Response) => {
         addChildDiv(Response.data)
       })
