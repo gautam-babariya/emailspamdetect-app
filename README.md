@@ -40,6 +40,10 @@ After experimentation, the model with the best performance is selected for the f
 
 To run this project locally, follow these steps:
 
-1. **Clone the Repository**:
+1. **Clone the Repository**(Front-end):
    ```bash
    git clone https://github.com/gautam-babariya/emailspamdetect-app.git
+1. **Clone the Repository**(Back-end):
+   ```bash
+   git clone https://github.com/gautam-babariya/emailspamdetect-api.git
+
