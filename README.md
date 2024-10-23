@@ -1,6 +1,7 @@
 # Email Spam Classification
 
 This project is an **Email Spam Classification** system that uses machine learning to categorize emails as **spam** or **not spam**. The goal is to implement a model capable of accurately identifying unwanted emails using natural language processing (NLP) techniques.
+Project deploye link:- https://emailspamdetect-app.vercel.app/
 
 ## Project Overview
 
