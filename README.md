@@ -42,4 +42,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/email-spam-classification.git
+   git clone https://github.com/gautam-babariya/emailspamdetect-app.git
